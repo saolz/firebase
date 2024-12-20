@@ -42,18 +42,18 @@ TEMPLATES = [
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'test',
-        'USER': 'root',
-        'PASSWORD': 'sahil',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',
+        'PORT': '',
     }
 }
 
 CORS_ALLOW_ALL_ORIGINS = True  # For testing only, restrict in production
 # Add Razorpay Keys
-RAZORPAY_API_KEY = "rzp_test_xVdiKSkwDJsHoU"
-RAZORPAY_API_SECRET = "meg0URAK25C4SX8efWZCnWGR"
+RAZORPAY_API_KEY = ""
+RAZORPAY_API_SECRET = ""
 
 DEBUG = True  # Set to False in production
 ROOT_URLCONF = 'backend.urls'
